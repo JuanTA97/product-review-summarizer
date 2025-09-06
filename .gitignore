@@ -1,21 +1,31 @@
-# Entorno virtual
+# Virtual envs
 .venv/
 venv/
 
-# Archivos de entorno
+# Environment files (keys, secrets)
 .env
 
-# Cache de Python
+# Python cache/bytecode
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Distribución/instalación
-*.egg-info/
+# Build / packaging
 build/
 dist/
+*.egg-info/
 
-# Configs de IDE
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
 .vscode/
 .idea/
+
+# Logs
+*.log
